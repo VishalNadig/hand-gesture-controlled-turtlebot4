@@ -54,5 +54,6 @@ Verified the installation by running the following commands:
    $ python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
 The first command checks if tensorflow can run a simple operation on the GPU, while the second command checks if the GPU is detected by tensorflow.
+If tensorflow was installed correctly then it should list the GPU on the device.
 
 More details on installing tensorflow on Windows can be found here: https://www.tensorflow.org/install/pip#windows-native_1 
