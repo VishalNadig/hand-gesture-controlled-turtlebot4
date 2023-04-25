@@ -12,6 +12,7 @@ New:
 To achieve the above we follow the steps given below:
 
 Created a new environment named 'tf' with Python 3.9 using the following command:
+
 .. code-block:: console
 
    $ conda create --name tf python=3.9
