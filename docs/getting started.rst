@@ -18,15 +18,21 @@ If you have the ROS2 setup on your Turtlebot4 or any other mobile platform runni
 
 **Step 1**
 
-Clone https://github.com/AmzArch/HandGestureControlledRobot and copy the cobot3_ws folder found in HandGestureControlledRobot folder into your robot platform running ROS2.
-
-**Step 2**
-
-Go into the HandGestureControlledRobot directory with the following command:
+Clone the repository into your robot platform running ROS2.
 
 .. code-block:: console
 
-   $ cd HandGestureControlledRobot
+   $ git clone https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4.git
+
+**Step 2**
+
+Copy the cobot3_ws folder found in hand-gesture-controlled-turtlebot4 into your home directory and change into the cobot3_ws directory with the following commands:
+
+.. code-block:: console
+
+   $ cp -r hand-gesture-controlled-turtlebot4/cobot3_ws ~/
+   $ cd ~/cobot3_ws/
+   
  
 **Step 3**
 
@@ -44,10 +50,18 @@ Initialize setup.bash file:
 
    $ . install/setup.bash
  
+ **Step 5**
+
+Run the ROS2 node:
+
+.. code-block:: console
+
+   $ ros2 run cobot drive
+ 
 It is highly recommended to go through the next section on setting up your Turtlebot4. It can get quite tedious and the documentation provided in the section below is quite thorough with walking over the important aspects of setting up the Turtlebot4 and getting everything set up properly.
 
 
 Setting Up Turtlebot4
--------------
+============
 
 Setting up the Turtlebot4 might be quite tedious and hence is beyond the scope of this documentation. Please refer to the detailed documentation available at: https://robot-deployment.bitbucket.io/tutorials/turtlebot/01-turtlebot-unboxing/
