@@ -18,15 +18,15 @@ If you have the ROS2 setup on your Turtlebot4 or any other mobile platform runni
 
 **Step 1**
 
-Clone https://github.com/AmzArch/HandGestureControlledRobot and copy the cobot3_ws folder found in HandGestureControlledRobot folder into your robot platform running ROS2.
+Clone https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4.git and copy the cobot3_ws folder found in HandGestureControlledRobot folder into your robot platform running ROS2.
 
 **Step 2**
 
-Go into the HandGestureControlledRobot directory with the following command:
+Go into the hand-gesture-controlled-turtlebot4 directory with the following command:
 
 .. code-block:: console
 
-   $ cd HandGestureControlledRobot
+   $ cd hand-gesture-controlled-turtlebot4
  
 **Step 3**
 
