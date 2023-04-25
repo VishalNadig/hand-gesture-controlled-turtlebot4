@@ -26,12 +26,12 @@ Clone the repository into your robot platform running ROS2.
 
 **Step 2**
 
-Copy the cobot3_ws folder found in hand-gesture-controlled-turtlebot4 and change into the cobot3_ws directory with the following commands:
+Copy the cobot3_ws folder found in hand-gesture-controlled-turtlebot4 into your home directory and change into the cobot3_ws directory with the following commands:
 
 .. code-block:: console
 
-   $ cp -r hand-gesture-controlled-turtlebot4/cobot3_ws .
-   $ cd cobot3_ws/
+   $ cp -r hand-gesture-controlled-turtlebot4/cobot3_ws ~/
+   $ cd ~/cobot3_ws/
    
  
 **Step 3**
