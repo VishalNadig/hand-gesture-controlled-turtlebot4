@@ -1,2 +1,2 @@
-# hand-gesture-controlled-turtlebot4
-A graduate class project with controlling a Turtlebot4 running on ROS2 using hand gesture recognition.
+# HandGestureControlledRobot
+Controlling a turtlebot with gestures so that it can be used for collaborative robots (cobots) in real time with almost zero latency between gesture recognition and publishing the commands.
