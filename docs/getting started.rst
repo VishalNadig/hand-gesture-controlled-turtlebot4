@@ -48,6 +48,6 @@ It is highly recommended to go through the next section on setting up your Turtl
 
 
 Setting Up Turtlebot4
--------------
+============
 
 Setting up the Turtlebot4 might be quite tedious and hence is beyond the scope of this documentation. Please refer to the detailed documentation available at: https://robot-deployment.bitbucket.io/tutorials/turtlebot/01-turtlebot-unboxing/
