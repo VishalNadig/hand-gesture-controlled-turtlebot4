@@ -50,7 +50,7 @@ Initialize setup.bash file:
 
    $ . install/setup.bash
  
- **Step 5**
+**Step 5**
 
 Run the ROS2 node:
 
