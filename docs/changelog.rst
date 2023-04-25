@@ -3,6 +3,7 @@ Changelog
 1.0.1
 -------
 New:
+
 - We ran into roadblocks and technical challenges while trying to train and run the model on Virtualbox running Ubuntu 20.04. The Virtualbox does not support the AVX and AVX2 instruction set that is required by Tensorflow library to compile and run the models.
 - One workaround for the above problem we discovered but not tested is to use Tensorflow Lite instead of Tensorflow.
 - We realized it was a hassle trying to get Tensorflow lite configured seeing as how Tensorflow setup was tedious.
