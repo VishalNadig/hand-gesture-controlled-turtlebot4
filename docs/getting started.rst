@@ -50,6 +50,14 @@ Initialize setup.bash file:
 
    $ . install/setup.bash
  
+ **Step 5**
+
+Run the ROS2 node:
+
+.. code-block:: console
+
+   $ ros2 run cobot drive
+ 
 It is highly recommended to go through the next section on setting up your Turtlebot4. It can get quite tedious and the documentation provided in the section below is quite thorough with walking over the important aspects of setting up the Turtlebot4 and getting everything set up properly.
 
 
