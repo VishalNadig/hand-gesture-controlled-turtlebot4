@@ -22,6 +22,13 @@ Python
 
    $ pip install -r requirements.txt
 
+If you do not have the requirements.txt file you can run the following commands to get the required python packages installed:
+
+.. code-block:: console
+
+   $ pip install opencv-python pandas mediapipe scikit-learn
+
+
 VirtualBox
 """"
 
