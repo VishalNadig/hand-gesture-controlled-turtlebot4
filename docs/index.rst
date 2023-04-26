@@ -21,3 +21,4 @@ Contents
    requirements
    troubleshooting
    changelog
+   about the authors
