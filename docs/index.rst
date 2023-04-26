@@ -15,8 +15,8 @@ Contents
 
 .. toctree::
 
-   getting started
    about
+   getting started
    usage
    requirements
    troubleshooting
