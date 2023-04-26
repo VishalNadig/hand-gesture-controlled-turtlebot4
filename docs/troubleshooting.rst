@@ -16,10 +16,10 @@ Turtlebot4
 
   - Run the following commands:
   
-.. code-block:: console
+  .. code-block:: console
 
-    $ sudo systemctl stop unattended-upgrades
-    $ sudo apt-get purge unattended-upgrades
+      $ sudo systemctl stop unattended-upgrades
+      $ sudo apt-get purge unattended-upgrades
         
   
   
