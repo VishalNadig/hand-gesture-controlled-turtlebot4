@@ -31,38 +31,37 @@ Network Issues
 
 .. code-block:: yaml
 
-        network: 
-    version: 2 
-    ethernets: 
-        eth0: 
-            dhcp4: true 
-            optional: true 
-            addresses: [192.168.185.3/24] 
-        usb0: 
-            dhcp4: false 
-            optional: true 
-            addresses: [192.168.186.3/24] 
-    version: 2 
-    wifis: 
-        renderer: NetworkManager 
-        wlan0: 
-            optional: true 
-            access-points: 
-                <SSID_HERE>: 
-                    password: <PASSWORD_HERE>
-            dhcp4: false
-            addresses: 
-                - 10.0.10.21/24
-            routes:
-                - to: default
-                  via: 10.0.10.1
-            nameservers:
-                addresses:
-                - 1.1.1.1
-                - 1.0.0.1
-                - 8.8.8.8
-                - 8.8.4.4
-
+    network: 
+        version: 2 
+        ethernets: 
+            eth0: 
+                dhcp4: true 
+                optional: true 
+                addresses: [192.168.185.3/24] 
+            usb0: 
+                dhcp4: false 
+                optional: true 
+                addresses: [192.168.186.3/24] 
+        version: 2 
+        wifis: 
+            renderer: NetworkManager 
+            wlan0: 
+                optional: true 
+                access-points: 
+                    <SSID_HERE>: 
+                        password: <PASSWORD_HERE>
+                dhcp4: false
+                addresses: 
+                    - 10.0.10.21/24
+                routes:
+                    - to: default
+                      via: 10.0.10.1
+                nameservers:
+                    addresses:
+                    - 1.1.1.1
+                    - 1.0.0.1
+                    - 8.8.8.8
+                    - 8.8.4.4
 
 General Issues
 ----
