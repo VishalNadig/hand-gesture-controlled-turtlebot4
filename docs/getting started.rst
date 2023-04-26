@@ -139,15 +139,15 @@ Run ip link to get a list of virtualbox network interfaces. In a virtualbox gues
 .. code-block:: console
 
     $ cat <<EOT >> ~/cyclonedds_pc.xml
-      <CycloneDDS>
-      <Domain>
-          <General>
-              <DontRoute>true</DontRoute>
-              <NetworkInterfaceAddress>enp0s3</NetworkInterfaceAddress>
-          </General>
-      </Domain>
-     </CycloneDDS>
-     EOT
+    <CycloneDDS>
+    <Domain>
+    <General>
+    <DontRoute>true</DontRoute>
+    <NetworkInterfaceAddress>enp0s3</NetworkInterfaceAddress>
+    </General>
+    </Domain>
+    </CycloneDDS>
+    EOT
     $ sudo mv ~/cyclonedds_pc.xml /etc/
     $ echo "export CYCLONEDDS_URI=/etc/cyclonedds_pc.xml" >> ~/.bashrc
     $ source ~/.bashrc
