@@ -30,7 +30,8 @@ Network Issues
 - Configuring the netplan configuration yaml file is quite tricky and tedious to figure out. Here is a sample /etc/netplan/50-cloud-init.yaml template file to make things easier.
 
 .. code-block:: yaml
-    network: 
+
+        network: 
     version: 2 
     ethernets: 
         eth0: 
