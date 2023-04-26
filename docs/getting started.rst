@@ -4,6 +4,8 @@ Getting Started
 Requirements
 -------------
   - Python 3.9 or newer
+  - ROS2 Galactic
+  - VirtualBox with Ubuntu 20.04 or Dual Booted device with Ubuntu 20.04
 
 Installation
 -------------
