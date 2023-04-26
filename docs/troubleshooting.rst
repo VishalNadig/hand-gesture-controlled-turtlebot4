@@ -13,7 +13,8 @@ VirtualBox/Ubuntu/ROS2
 Turtlebot4
 -------
 - Create3 topics suddenly disappeared but can still see the Raspberry Pi 4 topics:
-
+  
+  - Re-flash the SD card on the Raspberry Pi 4 in the Turtlebot4 with the turtlebot image found here: http://download.ros.org/downloads/turtlebot4/turtlebot4_lite_galactic_0.1.3.zip
   - Run the following commands:
   
   .. code-block:: console
