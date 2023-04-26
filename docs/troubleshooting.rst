@@ -14,11 +14,11 @@ Turtlebot4
 -------
 - Create3 topics suddenly disappeared:
 
-  - Run the following command:
+  - Run the following commands:
   
-
     .. code-block:: console
         $ sudo systemctl stop unattended-upgrades
         $ sudo apt-get purge unattended-upgrades
-      - Restart Turtlebot4
+        
+  - Restart Turtlebot4
 
