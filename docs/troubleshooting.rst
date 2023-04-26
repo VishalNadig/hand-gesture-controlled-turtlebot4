@@ -1,7 +1,7 @@
 Troubleshooting
 ==============
 
-VirtualBox
+VirtualBox/Ubuntu/ROS2
 ------
 
 - Can only see */parameter_events* and */rosout* topics when ros2 topic list command is run:
