@@ -20,7 +20,7 @@ Python
 VirtualBox
 ------
 
-ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu 20.04 hence it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
+ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu 20.04 since it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
 
 .. note::
 
