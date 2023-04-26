@@ -29,6 +29,9 @@ ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu
 
   
 Install VirtualBox by visiting this link: https://www.virtualbox.org/wiki/Downloads
+
+Download the Ubuntu 20.04 (LTS) desktop image here: https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso
+
 After installing VirtualBox follow these instructions here to get it setup with Ubuntu 20.04 desktop image: https://robot-deployment.bitbucket.io/tutorials/virtual%20machine/01-installing-ubuntu-20-on-virtualbox/
 
 ROS2 Galactic Installation
