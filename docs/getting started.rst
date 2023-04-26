@@ -18,7 +18,7 @@ Python
    $ pip install -r requirements.txt
 
 VirtualBox
-------
+""""
 
 ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu 20.04 since it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
 
@@ -30,7 +30,7 @@ Install VirtualBox by visiting this link: https://www.virtualbox.org/wiki/Downlo
 After installing VirtualBox follow these instructions here to get it setup with Ubuntu 20.04 desktop image: https://robot-deployment.bitbucket.io/tutorials/virtual%20machine/01-installing-ubuntu-20-on-virtualbox/
 
 ROS2 Galactic Installation
--------
+""""
 
 To use the software, first install ROS2 Galactic by running these commands as shown:
 
@@ -60,7 +60,7 @@ If you are using Zsh then run the following commands instead to source the ROS2 
    $ source ~/.zshrc
 
 Run Some Examples
--------
+""""
 To verify that ROS2 Galactic has been installed properly run the following commands:
 
 .. code-block:: console
@@ -94,7 +94,7 @@ The output should confirm that the listener is hearing the published messages:
 If all the above steps worked and the listener node is printing messages to your console in sync with the talker node publishing them, ROS2 has been successfully installed.
 
 Essential Tools
----------
+""""
 
 .. code-block:: console
     $ sudo apt install net-tools -y
@@ -104,7 +104,7 @@ Essential Tools
 
 
 Set Additional Environment Variables
----------
+""""
 
 .. code-block:: console
 
@@ -114,7 +114,7 @@ Set Additional Environment Variables
 More information can be found here: https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html#the-ros-domain-id-variable
 
 Install Other Packages
--------
+""""
 
 .. code-block:: console
 
@@ -132,7 +132,7 @@ Install Other Packages
     wget
 
 Configure CycloneDDS
--------
+""""
 
 Run ip link to get a list of virtualbox network interfaces. In a virtualbox guest you will probably will end up with enp0s3 as your default network interface. If that is the case, copy this code in to a terminal:
 
@@ -153,7 +153,7 @@ Run ip link to get a list of virtualbox network interfaces. In a virtualbox gues
     $ source ~/.bashrc
 
 Declare your DDS implementation
----------
+""""
 .. code-block:: console
 
     $ echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
@@ -161,6 +161,6 @@ Declare your DDS implementation
 More information can be found in the official documentation of ROS2 from here: https://docs.ros.org/en/galactic/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html#switch-to-rmw-cyclonedds
 
 Setting Up Turtlebot4
-============
+====
 
 Setting up the Turtlebot4 might be quite tedious and hence is beyond the scope of this documentation. Please refer to the detailed documentation available at: https://robot-deployment.bitbucket.io/tutorials/turtlebot/01-turtlebot-unboxing/ or https://turtlebot.github.io/turtlebot4-user-manual/
