@@ -28,6 +28,7 @@ Network Issues
 -----
 
 - Configuring the netplan configuration yaml file is quite tricky and tedious to figure out. Here is a sample /etc/netplan/50-cloud-init.yaml template file to make things easier.
+    - Replace the <SSID_HERE> with the network SSID and the <PASSWORD_HERE> with the network password respectively.
 
 .. code-block:: yaml
 
