@@ -137,6 +137,7 @@ Configure CycloneDDS
 Run ip link to get a list of virtualbox network interfaces. In a virtualbox guest you will probably will end up with enp0s3 as your default network interface. If that is the case, copy this code in to a terminal:
 
 .. code-block:: console
+
     $ cat <<EOT >> ~/cyclonedds_pc.xml
       <CycloneDDS>
       <Domain>
