@@ -93,6 +93,7 @@ The output should confirm that the listener is hearing the published messages:
 
 If all the above steps worked and the listener node is printing messages to your console in sync with the talker node publishing them, ROS2 has been successfully installed.
 
+
 Essential Tools
 """"
 
