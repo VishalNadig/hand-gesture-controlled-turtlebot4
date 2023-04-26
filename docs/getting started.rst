@@ -21,7 +21,8 @@ VirtualBox
 ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu 20.04 hence it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
 
 .. note::
-    It is recommended to install Ubuntu 20.04 desktop image on VirtualBox to keep track of changes and revert back in case things go wrong through it's Snapshot feature.
+
+   It is recommended to install Ubuntu 20.04 desktop image on VirtualBox to keep track of changes and revert back in case things go wrong through it's Snapshot feature.
   
 Install VirtualBox by visiting this link: https://www.virtualbox.org/wiki/Downloads
 After installing VirtualBox follow these instructions here to get it setup with Ubuntu 20.04 desktop image: https://robot-deployment.bitbucket.io/tutorials/virtual%20machine/01-installing-ubuntu-20-on-virtualbox/
