@@ -11,7 +11,7 @@ Installation
 -------------
 
 Python
-------
+^^^^
 
 .. code-block:: console
 
