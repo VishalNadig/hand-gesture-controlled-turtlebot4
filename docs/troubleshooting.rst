@@ -12,7 +12,7 @@ VirtualBox
 
 Turtlebot4
 -------
-- Create3 topics suddenly disappeared:
+- Create3 topics suddenly disappeared but can still see the Raspberry Pi 4 topics:
 
   - Run the following commands:
   
