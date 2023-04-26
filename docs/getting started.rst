@@ -97,20 +97,19 @@ Essential Tools
 ---------
 
 .. code-block:: console
-  $ sudo apt install net-tools -y
-  $ ifconfig
-  $ curl -fsSL https://tailscale.com/install.sh | sh
-  $ sudo apt install -y tmux
+    $ sudo apt install net-tools -y
+    $ ifconfig
+    $ curl -fsSL https://tailscale.com/install.sh | sh
+    $ sudo apt install -y tmux
 
 
 Set Additional Environment Variables
 ---------
 
-
 .. code-block:: console
 
-  $ echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
-  $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
+    $ echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
+    $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
 
 More information can be found here: https://docs.ros.org/en/galactic/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html#the-ros-domain-id-variable
 
@@ -119,7 +118,7 @@ Install Other Packages
 
 .. code-block:: console
 
-  $ sudo apt update && sudo apt install -y \
+    $ sudo apt update && sudo apt install -y \
     build-essential \
     cmake \
     git \
@@ -138,25 +137,25 @@ Configure CycloneDDS
 Run ip link to get a list of virtualbox network interfaces. In a virtualbox guest you will probably will end up with enp0s3 as your default network interface. If that is the case, copy this code in to a terminal:
 
 .. code-block:: console
-  $ cat <<EOT >> ~/cyclonedds_pc.xml
-  <CycloneDDS>
+    $ cat <<EOT >> ~/cyclonedds_pc.xml
+      <CycloneDDS>
       <Domain>
           <General>
               <DontRoute>true</DontRoute>
               <NetworkInterfaceAddress>enp0s3</NetworkInterfaceAddress>
           </General>
       </Domain>
-  </CycloneDDS>
-  EOT
-  $ sudo mv ~/cyclonedds_pc.xml /etc/
-  $ echo "export CYCLONEDDS_URI=/etc/cyclonedds_pc.xml" >> ~/.bashrc
-  $ source ~/.bashrc
+     </CycloneDDS>
+     EOT
+    $ sudo mv ~/cyclonedds_pc.xml /etc/
+    $ echo "export CYCLONEDDS_URI=/etc/cyclonedds_pc.xml" >> ~/.bashrc
+    $ source ~/.bashrc
 
 Declare your DDS implementation
 ---------
 .. code-block:: console
 
-  $ echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
+    $ echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 
 More information can be found in the official documentation of ROS2 from here: https://docs.ros.org/en/galactic/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html#switch-to-rmw-cyclonedds
 
