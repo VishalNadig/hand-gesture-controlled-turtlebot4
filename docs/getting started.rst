@@ -98,6 +98,7 @@ Essential Tools
 """"
 
 .. code-block:: console
+
     $ sudo apt install net-tools -y
     $ ifconfig
     $ curl -fsSL https://tailscale.com/install.sh | sh
