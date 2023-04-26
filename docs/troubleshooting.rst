@@ -17,8 +17,8 @@ Turtlebot4
   - Run the following command:
   
 
-.. code-block:: console
-    $ sudo systemctl stop unattended-upgrades
-    $ sudo apt-get purge unattended-upgrades
-  - Restart Turtlebot4
+    .. code-block:: console
+        $ sudo systemctl stop unattended-upgrades
+        $ sudo apt-get purge unattended-upgrades
+      - Restart Turtlebot4
 
