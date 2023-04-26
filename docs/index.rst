@@ -1,4 +1,4 @@
-Welcome to Gesture Controlled Turtlebot4 Documentation!
+Welcome to The Gesture Controlled Turtlebot4 Documentation!
 ===================================
 
 We use ROS2 platforms to perform the gesture control for real time collaborative control of robots using the ROS2 platform for their functionality.
