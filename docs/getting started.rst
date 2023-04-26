@@ -161,4 +161,4 @@ More information can be found in the official documentation of ROS2 from here: h
 Setting Up Turtlebot4
 ============
 
-Setting up the Turtlebot4 might be quite tedious and hence is beyond the scope of this documentation. Please refer to the detailed documentation available at: https://robot-deployment.bitbucket.io/tutorials/turtlebot/01-turtlebot-unboxing/
+Setting up the Turtlebot4 might be quite tedious and hence is beyond the scope of this documentation. Please refer to the detailed documentation available at: https://robot-deployment.bitbucket.io/tutorials/turtlebot/01-turtlebot-unboxing/ or https://turtlebot.github.io/turtlebot4-user-manual/
