@@ -22,6 +22,5 @@ Turtlebot4
       $ sudo apt-get purge unattended-upgrades
         
   
-  
-   - Restart Turtlebot4
+  - Restart Turtlebot4
 
