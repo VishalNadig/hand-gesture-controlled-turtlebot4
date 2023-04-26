@@ -152,7 +152,7 @@ Run ip link to get a list of virtualbox network interfaces. In a virtualbox gues
 
 Declare your DDS implementation
 ---------
-.. code-blocl:: console
+.. code-block:: console
 
   $ echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 
