@@ -1,2 +1,2 @@
-# HandGestureControlledRobot
-Controlling a turtlebot with gestures so that it can be used for collaborative robots (cobots) in real time with almost zero latency between gesture recognition and publishing the commands.
+# Hand Gesture Controlled Robot
+Controlling a Turtlebot4 running ROS2 galactic with hand gestures so that it can be used for collaborative robots (cobots).
