@@ -10,11 +10,11 @@ VirtualBox/Ubuntu/ROS2
   - Restart your virtual box.
 
 
-Turtlebot4
+Turtlebot 4
 -------
 - Create3 topics suddenly disappeared but can still see the Raspberry Pi 4 topics:
   
-  - Re-flash the SD card on the Raspberry Pi 4 in the Turtlebot4 with the turtlebot image found here: http://download.ros.org/downloads/turtlebot4/turtlebot4_lite_galactic_0.1.3.zip
+  - Re-flash the SD card on the Raspberry Pi 4 in the Turtlebot 4 with the turtlebot image found here: http://download.ros.org/downloads/turtlebot4/turtlebot4_lite_galactic_0.1.3.zip
   - Run the following commands:
   
   .. code-block:: console
@@ -22,7 +22,7 @@ Turtlebot4
       $ sudo systemctl stop unattended-upgrades
       $ sudo apt-get purge unattended-upgrades
         
-  - Restart Turtlebot4
+  - Restart Turtlebot 4
 
 
 Network Issues
