@@ -44,7 +44,7 @@ After installing VirtualBox follow these instructions here to get it setup with 
 ROS2 Galactic Installation
 """"
 
-To use the software, first install ROS2 Galactic by running these commands as shown:
+To use the software, first install ROS2 Galactic on your Ubuntu 20.04 desktop environment running in the VirtualBox by running these commands:
 
 .. code-block:: console
 
