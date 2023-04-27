@@ -20,5 +20,6 @@ Contents
    usage
    troubleshooting
    changelog
+   demo
    about the authors
    homepage
