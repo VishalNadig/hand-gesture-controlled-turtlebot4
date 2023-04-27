@@ -1,6 +1,14 @@
 Changelog
 =============
 
+2.2.1
+----
+
+New:
+
+- A performance improvement was noticed when we switched from running the ROS2 nodes in a VirtualBox to a full fledged Ubuntu 20.04 desktop in a dual boot system.
+
+
 2.2.0
 -------
 
