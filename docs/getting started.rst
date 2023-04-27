@@ -64,7 +64,7 @@ Then source the setup of ROS2 on bash by running the following commands:
    $ echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
    $ source ~/.bashrc
 
-If you are using Zsh then run the following commands instead to source the ROS2 setup:
+If you are using Zsh instead of bash, run the following commands to source the ROS2 setup:
 
 .. code-block:: console
 
