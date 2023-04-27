@@ -21,3 +21,4 @@ Contents
    troubleshooting
    changelog
    about the authors
+   homepage
