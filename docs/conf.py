@@ -1,3 +1,3 @@
-html_css_files = [
+html_syle = [
     'custom.css',
 ]
