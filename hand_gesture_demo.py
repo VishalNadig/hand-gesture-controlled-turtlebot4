@@ -9,7 +9,7 @@ import pickle
 # Define the list of landmark names to be used
 # landmark_names = ['cx1', 'cx2', 'cx3', 'cx4', 'cx5', 'cx6', 'cx7', 'cx8', 'cx9', 'cx10', 'cx11', 'cx12', 'cx13', 'cx14', 'cx15', 'cx16', 'cx17', 'cx18', 'cx19', 'cx20', 'cx21', 'cy1', 'cy2', 'cy3', 'cy4', 'cy5', 'cy6', 'cy7', 'cy8', 'cy9', 'cy10', 'cy11', 'cy12', 'cy13', 'cy14', 'cy15', 'cy16', 'cy17', 'cy18', 'cy19', 'cy20', 'cy21']
 # model_dict = pickle.load(open(fr"C:\Users\Archit Jain\OneDrive - Arizona State University\Desktop\ASU Classes\EGR 598 Exp and Depl of Robotics\Project\model_1.p", 'rb'))
-model_dict = pickle.load(open(fr"C:\Users\Archit Jain\OneDrive - Arizona State University\Desktop\ASU Classes\EGR 598 Exp and Depl of Robotics\Project\Sign_Language_Grey_classifier_2.p", 'rb'))
+model_dict = pickle.load(open(fr"Sign_Language_Grey_classifier_2.p", 'rb'))
 
 
 
