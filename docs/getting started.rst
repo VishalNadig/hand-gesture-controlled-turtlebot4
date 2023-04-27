@@ -26,7 +26,7 @@ If you do not have the requirements.txt file you can run the following commands 
 
 .. code-block:: console
 
-   $ pip install opencv-python pandas mediapipe scikit-learn
+   $ pip install opencv-python pandas mediapipe scikit-learn jupyter
 
 
 VirtualBox
