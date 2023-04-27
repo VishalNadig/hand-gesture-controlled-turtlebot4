@@ -1,7 +1,7 @@
 Homepage
 =====
 
-All the code used, model and training data can be found here:
+All the code used, the model and the training data can be found here:
 
 https://github.com/VishalNadig/hand-gesture-controlled-turtlebot4
 
