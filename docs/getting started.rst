@@ -32,7 +32,7 @@ If you do not have the requirements.txt file you can run the following commands 
 VirtualBox
 """"
 
-ROS2 works best with Ubuntu plaftforms abd hence it is recommended to use Ubuntu 20.04 since it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
+ROS2 works best with Ubuntu plaftforms and hence it is recommended to use Ubuntu 20.04 for this project since it is stable and has a Life Time Support (LTS) build. You can either dual boot your device with Ubuntu 20.04 desktop or download a virtual box and install an Ubuntu 20.04 desktop image.
 
   
 Install VirtualBox by visiting this link: https://www.virtualbox.org/wiki/Downloads
