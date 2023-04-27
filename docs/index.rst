@@ -18,7 +18,6 @@ Contents
    about
    getting started
    usage
-   requirements
    troubleshooting
    changelog
    about the authors
