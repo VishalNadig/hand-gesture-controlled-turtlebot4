@@ -23,7 +23,7 @@ New:
 
 New:
 
-- Previous implementation had three nodes, publishing gesture, filtered LIDAR readings and publishing Twist messages, also showing the camera view of Turtlebot4.
+- Previous implementation had three nodes, publishing gesture, filtered LIDAR readings and publishing Twist messages, also showing the camera view of Turtlebot 4.
 - Video feed would turn red if it sensed an obstacle in proximity.
 - Running multiple Python nodes caused performance issues due to Global Interpreter Lock(GIL) limitation.
 
@@ -33,15 +33,15 @@ New:
 
 New:
 
-- Ensured safety of the robot and avoided collisions by using readings from the Turtlebot4's lidar.
+- Ensured safety of the robot and avoided collisions by using readings from the Turtlebot's lidar.
 - Filtered the lidar data using an FIR filter with a memory of past 50 readings due to erratic readings between subsequent readings.
 - Implemented a feature to prevent the robot from moving forward if an obstacle was detected to be too close by the lidar.
 
 .. note::
 
-   Adjusted for the offset of the Turtlebot4's lidar, which was placed at an offset of 90 degrees.
-   Modified the readings to account for the offset, with the front of the lidar being considered the left side of the Turtlebot4.
-
+   Adjusted for the offset of the Turtlebot's lidar, which was placed at an offset of 90 degrees.
+   Modified the readings to account for the offset, with the front of the lidar being considered the left side of the Turtlebot 4.
+ 
 2.1.0
 -----
 
@@ -49,7 +49,7 @@ New:
 
 - Integrated the trained model into a ROS2 publisher node.
 - Used the model to predict gestures from video feeds obtained from the laptop's webcam.
-- Implemented a function to publish Twist messages to the /cmd/vel topic on the Turtlebot4 based on the recognized gestures.
+- Implemented a function to publish Twist messages to the /cmd/vel topic on the Turtlebot 4 based on the recognized gestures.
 
 2.0.2
 -----
