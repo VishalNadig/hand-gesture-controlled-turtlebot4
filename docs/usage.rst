@@ -51,4 +51,4 @@ Run the ROS2 node:
 Training the Hand Gesture Recognition Model
 -----
 
-To train the model, run the 'RF2_Media_Pipeline_version - Sign_Gesture_Classification.ipynb' jupyter notebook. You need to change the data directory variable in the Jupyer Notebook to the location of the data directory in your local computer.
+To train the model, run the 'gesture_recognition_model_training.ipynb' jupyter notebook. You need to change the data directory variable in the Jupyer Notebook to the location of the data directory in your local computer.
