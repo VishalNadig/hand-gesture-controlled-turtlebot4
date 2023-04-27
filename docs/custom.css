@@ -1,35 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<style type="text/css">
-		.header-bar-wrap{
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-			background-color: #f2f2f2;
-			padding: 10px;
-		}
-	.header-logo{
-		height: 50px;
-		width: 50px;
-		margin-right: 10px;
-	}
-</style>
-</head>
-<body>
-	<div class="header-bar-wrap">
-		<div class="header-row">
-			<ul class="header-ul">
-				<li><a href="https://clearpathrobotics.com/"><div class="header-logo cpr-logo no-underline"></div></a></li>
-				<li><a href="https://www.openrobotics.org/"><div class="header-logo osrf-logo no-underline"></div></a></li>
-				<li><a href="https://docs.ros.org/en/humble/index.html"><div class="header-logo ros-logo no-underline"></div></a></li>
-				<li><a href="https://github.com/turtlebot/TurtleBot4Lessons"><div class="header-logo lessons-logo no-underline"></div></a></li>
-				<li><a href="https://github.com/turtlebot"><div class="header-logo github-logo no-underline"></div></a></li>
-				<li><a href="https://clearpathrobotics.com/turtlebot-4/"><div class="header-logo shop-logo no-underline"></div></a></li>
-			</ul>
-		</div>
-	</div>
-</body>
-</html>
+.header-bar-wrap {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+.header-logo {
+height: 50px;
+width: 50px;
+margin-right: 10px;
+}
+
+.cpr-logo {
+background-image: url("path/to/cpr-logo.png");
+}
+
+.osrf-logo {
+background-image: url("path/to/osrf-logo.png");
+}
+
+.ros-logo {
+background-image: url("path/to/ros-logo.png");
+}
+
+.lessons-logo {
+background-image: url("path/to/lessons-logo.png");
+}
+
+.github-logo {
+background-image: url("path/to/github-logo.png");
+}
+
+.shop-logo {
+background-image: url("path/to/shop-logo.png");
+}
