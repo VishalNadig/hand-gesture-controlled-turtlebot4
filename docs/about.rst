@@ -55,6 +55,9 @@ Accuracy vs performance tradeoff:
 Demo Video
 ----
 
+.. video:: TurtlebotControlDemoVideo.mp4
+   :width: 600
+   
 Elevator Pitch
 ----
 
