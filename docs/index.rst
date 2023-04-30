@@ -16,10 +16,10 @@ Contents
 .. toctree::
 
    about
+   homepage
    getting started
    usage
    troubleshooting
    changelog
    demo
    about the authors
-   homepage
