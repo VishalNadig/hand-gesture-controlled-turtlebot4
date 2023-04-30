@@ -28,7 +28,7 @@ Due to the inefficiency of the CNN model, we switched to a Random Forest Classif
 ROS Architecture
 ----
 
-.. image:: hand-gesture-controlled-turtlebot4/Turtlebot4GestureFlowchart.png
+.. image:: Turtlebot4GestureFlowchart.png
    :width: 600
    
 Tradeoffs
