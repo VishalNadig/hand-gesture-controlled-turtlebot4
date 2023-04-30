@@ -27,9 +27,28 @@ Due to the inefficiency of the CNN model, we switched to a Random Forest Classif
 
 ROS Architecture
 ----
-
+.. image:: Turtlebot4GestureFlowchart.png
+   :width: 600
 Tradeoffs
 ----
+Tradeoffs mentioned we encountered during the implementation include (More details in the changelog):
+
+Performance vs functionality tradeoff:
+2.2.1: Switching from running ROS2 nodes in VirtualBox to Ubuntu 20.04 desktop in a dual boot system resulted in a performance improvement but requires a dual boot system.
+Performance vs complexity tradeoff:
+2.2.0: Combining three separate nodes into one Python node improved performance but the fastest approach without crash detection functionality may not be suitable for all use cases. Using separate edge computers may overcome limitations but increases complexity.
+Performance vs scalability tradeoff:
+2.1.2: Running multiple Python nodes caused performance issues due to Global Interpreter Lock (GIL) limitation, which affects scalability.
+Accuracy vs latency tradeoff:
+2.0.0: Previous approach was ineffective due to the model's size and lack of improvement in accuracy and latency. Adopting the Mediapipe python library improved accuracy but could still result in latency.
+Accuracy vs resource utilization tradeoff:
+2.0.2: Adopting a new approach that uses relational coordinates of hand landmarks for gesture recognition yielded higher accuracy but may use more resources.
+Accuracy vs simplicity tradeoff:
+2.0.1: Adopting the Random Forest Classifier in scikit-learn library for gesture recognition achieved a lower accuracy than the later adopted approaches but is simpler to implement.
+Technical challenges vs performance tradeoff:
+1.0.1: Using Tensorflow Lite instead of Tensorflow due to the absence of AVX and AVX2 instruction sets required by Tensorflow in Virtualbox running Ubuntu 20.04 may lead to lower performance. Dual-booting laptops with Ubuntu 20.04 and using Tensorflow to reduce inference time resulted in higher performance but requires a dual boot system.
+Accuracy vs performance tradeoff:
+1.0.2: Accurate predictions required segmentation of hands from the video feed, but this resulted in significant latency between video input and gesture recognition, hindering its use as a real-time control mechanism for the Turtlebot4.
 
 Demo Video
 ----
