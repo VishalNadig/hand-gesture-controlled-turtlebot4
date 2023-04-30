@@ -16,3 +16,19 @@ To learn more or try our project out yourself please visit: https://github.com/V
 
 Project Goals
 ----
+
+Project Workflow
+----
+
+ROS Architecture
+----
+
+Tradeoffs
+----
+
+Demo Video
+----
+
+Elevator Pitch
+----
+
