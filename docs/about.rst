@@ -16,9 +16,16 @@ To learn more or try our project out yourself please visit: https://github.com/V
 
 Project Goals
 ----
+Our overarching initial goal as to use the Turtlebot 4 and make a collaborative robot and control the Turtlebot 4 in real time remotely. We came up with an idea of using American Sign Language (ASL) since it is a popular way to communicate using hand gestures that most people can learn and pick up quite easily. We wanted to train a machine learning model to recognize the ASL signs made by the user and control the Turtlebot 4. A machine learning model would be trained on a huge dataset of images containing all the letters and numbers used in ASL. We also planned on a learning mode for the Turtlebot where in we could train the Turtlebot to follow new gestures for new commands in the future. The machine learning model would then be tested for its accuracy and deployed on a device connected to the same ROS network as the Turtlebot 4.
+
 
 Project Workflow
 ----
+We knew that gettnig a robust, accurate and efficient machine learning model would be the core foundation of our project. We inintially decided a Convolutional Neural Network (CNN) model to be trained and deployed on the Turtlebot 4. We would feed this model a huge dataset of images containing the hand gestures of ASL and train it to recognize the various hand gestures denoting the alphabets and the numbers. After building the model and training and testing a few variations of the model, the machine learning model we came up with had many shortcomings and technical challenges such as the model being inaccurate and hyper-parameter tuning taking a long time. The machine learning was also causing the whole system to lag. We explored quite a few different CNN model architectures but none of them yielded a efficient and accurate model. We explored a few other options and decided to go with Mediapipe library for Python. Mediapipe was convenient to use as most of the framework for data collection was already present. It was also built on OpenCV which integrates very well with Python. It also had a systematic way of collecting the Hand Gesture data using 21 unique landmarks assigned to each part of the human hand. The X and Y coordinates of these landmarks could be exported to a CSV and be used to train a machine learning model. 
+
+The CNN model was too inefficient for our purposes and hence we decided to go with a Random Forrest Classifier model from scikit-learn. We also had to change the dataset we used as the dataset was too large and complicated to be used for training and testing. We found another dataset on kaggle that contained images of just the numbers used in ASL. This was a smaller dataset and better in quality for our purposes. The dataset and the model performed vastly better and we got more than 95% accuracy on the model we trained.
+
+The Random Forrest Classifier model was also vastly more efficient on the ROS network and used far less computational power to run and predict the hand gestures. 
 
 ROS Architecture
 ----
