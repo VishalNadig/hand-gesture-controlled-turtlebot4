@@ -16,7 +16,7 @@ To learn more or try our project out yourself please visit: https://github.com/V
 
 Project Goals
 ----
-Our primary objective is to create a collaborative robot using the Turtlebot 4 and remotely control it in real-time. To achieve this, we plan to utilize American Sign Language (ASL), a widely recognized method of communication using hand gestures. Our approach involves training a machine learning model on a large dataset of ASL images to accurately recognize signs made by the user and control the Turtlebot 4 accordingly. Additionally, we intend to incorporate a learning/teaching mode for the Turtlebot, enabling it to understand new gestures for new commands in the future. After testing the accuracy of the machine learning model, we aim to deploy it on a device connected to the same ROS network as the Turtlebot 4.
+Our primary objective was to create a collaborative robot using the Turtlebot 4 and remotely control it in real-time. To achieve this, we planned to utilize American Sign Language (ASL), a widely recognized method of communication using hand gestures. Our approach involved training a machine learning model on a large dataset of ASL images to accurately recognize signs made by the user and control the Turtlebot 4 accordingly. Additionally, we intended to incorporate a learning/teaching mode for the Turtlebot, enabling it to understand new gestures for new commands in the future. After testing the accuracy of the machine learning model, we aim to deploy it on a device connected to the same ROS network as the Turtlebot 4.
 
 
 Project Workflow
