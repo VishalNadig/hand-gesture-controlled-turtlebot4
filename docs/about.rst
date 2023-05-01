@@ -55,9 +55,9 @@ Accuracy vs performance tradeoff:
 Demo Video
 ----
 
-`Link to the Youtube Video <https://youtu.be/q4oaOehS-fE>`_
+`Screen Recording <https://youtu.be/q4oaOehS-fE>`_
 
-`Link to the Youtube Video <https://youtu.be/BmBkIntueFs>`_
+`Live Test <https://youtu.be/BmBkIntueFs>`_
 
 Elevator Pitch
 ----
