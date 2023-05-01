@@ -20,6 +20,7 @@ Contents
    getting started
    usage
    troubleshooting
+   workflow for development
    changelog
    demo
    about the authors
