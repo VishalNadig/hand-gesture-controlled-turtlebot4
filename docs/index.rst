@@ -1,4 +1,4 @@
-Welcome to The Gesture Controlled Turtlebot 4 Documentation!
+Welcome to The Hand Gesture Controlled Turtlebot 4 Documentation!
 ===================================
 
 We use ROS2 Galactic to perform the gesture control for real time collaborative control of Turtlebot 4.
