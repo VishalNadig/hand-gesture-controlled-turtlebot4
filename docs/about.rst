@@ -76,8 +76,6 @@ Accuracy vs performance tradeoff:
 Demo Video
 ----
 
-`Screen Recording <https://youtu.be/q4oaOehS-fE>`_
-
 `Live Test <https://youtu.be/O7yYH6cIZUc>`_
 
 Elevator Pitch
