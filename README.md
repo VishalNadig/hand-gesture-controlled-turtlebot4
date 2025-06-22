@@ -9,4 +9,4 @@ Docs
 Demo Video
 ----
 
-`Live Test <https://youtu.be/O7yYH6cIZUc>`_
+_`Live Test <https://youtu.be/O7yYH6cIZUc>`_
